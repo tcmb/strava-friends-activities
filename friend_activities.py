@@ -2,7 +2,6 @@
 
 from client import client
 from helpers import matches_criteria, get_min_dist, km
-from pprint import pprint
 
 
 def get_match_candidates():
