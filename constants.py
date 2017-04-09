@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 from stravalib.attributes import LatLon
-
-ACCESS_TOKEN = "MY_ACCESS_TOKEN"
+from secrets import ACCESS_TOKEN
 
 P = 0.017453292519943295
 

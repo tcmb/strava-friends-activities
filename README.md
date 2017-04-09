@@ -14,7 +14,7 @@ Returns 10 most recent matching results.
 
 Prerequisites:
   - You need a Strava developer account (make it at https://www.strava.com/settings/api)
-  - Insert your access token in `constants.ACCESS_TOKEN`
+  - Insert your access token in a constant `ACCESS_TOKEN` in a local file `secrets.py`
   - Insert the latitude and longitude of your home location in `constants.HOME_LOC`
   - Python 2.7, use of virtualenv is recommended
   - The stravalib Strava API bindings from https://github.com/hozn/stravalib
